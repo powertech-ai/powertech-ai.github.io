@@ -2,15 +2,85 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>联系我们 - Beijing Mitech Technology Co., Ltd</title>
-<style>body{font-family:system-ui;max-width:800px;margin:40px auto;padding:20px;line-height:1.6}a{color:#007aff}</style>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-<a href="/">← 返回首页</a>
-<h1>联系我们</h1>
-<h2>Beijing Mitech Technology Co., Ltd / 北京幂特科技有限公司</h2>
-<p><strong>邮箱：</strong>contact@powertech-ai.com</p>
-<p><strong>地址：</strong>401, 4th Floor, Building 27, No. 17 Jingsheng South Fourth Street, Beijing Economic and Technological Development Zone, Beijing, CN 100000</p>
-<p>北京市经济技术开发区景盛南四街17号院27号楼4层401</p>
+<nav class="nav">
+  <div class="nav-brand">MITECH</div>
+  <div class="nav-links">
+    <a href="/">首页</a>
+    <a href="/about.html">关于我们</a>
+    <a href="/contact.html">联系我们</a>
+  </div>
+</nav>
+
+<div class="container">
+  <a href="/" class="back-link">← 返回首页</a>
+  
+  <header class="page-header">
+    <h1>联系我们</h1>
+    <h2>Beijing Mitech Technology Co., Ltd / 北京幂特科技有限公司</h2>
+  </header>
+
+  <section class="contact-info">
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+      </div>
+      <div class="contact-content">
+        <h4>电子邮箱</h4>
+        <p>contact@powertech-ai.com</p>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+          <circle cx="12" cy="10" r="3"></circle>
+        </svg>
+      </div>
+      <div class="contact-content">
+        <h4>公司地址</h4>
+        <p>401, 4th Floor, Building 27, No. 17 Jingsheng South Fourth Street</p>
+        <p>Beijing Economic and Technological Development Zone</p>
+        <p>Beijing, CN 100000</p>
+        <p style="margin-top: 8px; color: var(--text-muted);">北京市经济技术开发区景盛南四街17号院27号楼4层401</p>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <div class="contact-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+        </svg>
+      </div>
+      <div class="contact-content">
+        <h4>工作时间</h4>
+        <p>周一至周五: 9:00 - 18:00</p>
+        <p style="color: var(--text-muted);">周末及法定节假日休息</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section" style="margin-top: 48px;">
+    <div class="glass-card" style="text-align: center;">
+      <h3>期待与您的合作</h3>
+      <p>无论您有任何技术咨询或合作意向，欢迎随时与我们联系。我们将竭诚为您提供专业的服务。</p>
+      <a href="mailto:contact@powertech-ai.com" class="btn-glow" style="margin-top: 24px;">发送邮件</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Beijing Mitech Technology Co., Ltd. 北京幂特科技有限公司 版权所有</p>
+  </footer>
+</div>
 </body>
 </html>
